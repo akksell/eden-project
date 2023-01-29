@@ -1,0 +1,52 @@
+.goalContainer {
+    position: absolute;
+    padding: 1rem 1.5rem;
+    border-radius: 1.2rem;
+    right: 0;
+    margin-left: auto;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: #fff;
+    box-shadow: 5px 1rem 4rem hsl(0, 0%, 30%);
+    max-width: 250px;
+    z-index: 400;
+}
+
+.goalContainer > div > p {
+    color: #000;
+    margin: 0.5rem 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerBtn {
+    margin: 0 0.25rem;
+    background-color: transparent;
+    border: none;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.headerBtn:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.title {
+    font-family: var(--font-src-code);
+    margin-top: 0;
+    color: #000;
+    font-weight: 800;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #000;
+}
+
+.label {
+    font-weight: 800;
+}
+
+.description {
+    margin-bottom: 1rem;
+}

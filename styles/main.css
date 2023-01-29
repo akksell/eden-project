@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Source+Code+Pro&display=swap');
+
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --font-src-code: 'Source Code Pro', monospace;
+    --color-brown-1: hsl(43, 86%, 17%);
+    --color-brown-2: hsl(43, 77%, 27%);
+    --color-grey-1: hsl(210, 36%, 96%);
+    --color-white-1: hsl(48, 55.6%, 98.2%);
+    --color-teal-1: hsl(170, 97%, 15%);
+    --color-teal-2: hsl(166, 72%, 28%);
+    --color-teal-3: hsl(162, 63%, 41%);
+    --color-teal-4: hsl(160, 51%, 49%);
+    --color-teal-5: hsl(156, 73%, 74%);
+    --color-teal-6: hsl(152, 68%, 96%);
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-white-1);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: var(--font-poppins);
+    color: var(--color-brown-1);
+}
